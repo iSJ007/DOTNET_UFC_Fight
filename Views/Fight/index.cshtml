@@ -1,0 +1,27 @@
+<body>
+    <div class="container">
+        <div class="fight-container">
+            <div class="fighter">
+                <input type="text" id="fighter1Name" class="form-control" placeholder="Enter Fighter 1 Name">
+                <ul id="autocomplete-suggestions-1" class="list-group hidden"></ul>
+                <div id="fighterId1" name="fighterId1"></div>
+            </div>
+            <img src="~/images/VSlogo.png" alt="VS" class="vs-img">
+            <div class="fighter">
+                <input type="text" id="fighter2Name" class="form-control" placeholder="Enter Fighter 2 Name">
+                <ul id="autocomplete-suggestions-2" class="list-group hidden"></ul>
+                <div id="fighterId2" name="fighterId2"></div>
+            </div>
+        </div>
+
+        <div id="winnerBox" class="winner-box mt-4">
+            <span id="winnerText"></span>
+        </div>
+
+        <div class="d-flex justify-content-center mt-4 mb-4">
+            <button id="runFight" class="run-btn btn btn-primary">Run</button>
+        </div>
+    </div>
+
+
+</body>

@@ -1,0 +1,75 @@
+<body>
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col">
+                <div class="input-group mb-3">
+                    <input id="fighterName" type="text" class="form-control" placeholder="Search Fighter by Name"
+                        aria-label="Fighter's name" aria-describedby="button-addon2">
+
+                    <div class="input-group-append">
+                        <button id="searchStat" onclick="setStats()" class="btn btn-primary" type="button"
+                            id="button-addon2">Search</button>
+                    </div>
+
+
+                </div>
+                <ul id="autocomplete-suggestions" class="list-group hidden"></ul>
+
+                <div id="fighterId" name="fighterId"></div>
+            </div>
+        </div>
+
+        <h3>Name:
+            <span id="fighterNam" style="font-weight: bold; color: black;"> </span>
+        </h3>
+        <h3>Nickname
+            <span id="fighterNick" style="font-weight: bold; color: black;"></span>
+        </h3>
+        <h3>Location
+            <span id="fighterLocation" style="font-weight: bold; color: black;"></span>
+        </h3>
+
+        <div class="fighter-data-wrapper card mt-4 mb-4">
+            <h2>Fighter Stats</h2>
+            <hr>
+            <div class="row row-cols-3">
+                <div class="col">
+                    <p><strong>Class:</strong> <span id="fighterClass" style="font-weight: bold; color: black;"></span>
+                    </p>
+                    <p><strong>Height:</strong> <span id="fighterHeight"
+                            style="font-weight: bold; color: black;"></span></p>
+                    <p><strong>Weight:</strong> <span id="fighterWeight"
+                            style="font-weight: bold; color: black;"></span></p>
+                    <p><strong>Reach:</strong> <span id="fighterReach" style="font-weight: bold; color: black;"></span>
+                    </p>
+                    <p><strong>Stance:</strong> <span id="fighterStance"
+                            style="font-weight: bold; color: black;"></span></p>
+                </div>
+                <div class="col">
+                    <p><strong>Date of Birth:</strong> <span id="fighterDob"
+                            style="font-weight: bold; color: black;"></span></p>
+                    <p><strong>SLpM:</strong> <span id="fighterSlpm" style="font-weight: bold; color: black;"></span>
+                    </p>
+                    <p><strong>Str. Acc:</strong> <span id="fighterStracc"
+                            style="font-weight: bold; color: black;"></span></p>
+                    <p><strong>Td Avg:</strong> <span id="fighterTdavg" style="font-weight: bold; color: black;"></span>
+                    </p>
+                </div>
+                <div class="col">
+                    <p><strong>Sub. Avg:</strong> <span id="fighterSubavg"
+                            style="font-weight: bold; color: black;"></span></p>
+                    <p><strong>Td Acc:</strong> <span id="fighterTdacc" style="font-weight: bold; color: black;"></span>
+                    </p>
+                    <p><strong>Td Def:</strong> <span id="fighterTddef" style="font-weight: bold; color: black;"></span>
+                    </p>
+                    <p><strong>Str. Def:</strong> <span id="fighterStrdef"
+                            style="font-weight: bold; color: black;"></span></p>
+                </div>
+            </div>
+            <hr>
+        </div>
+
+
+
+    </div>
+</body>
